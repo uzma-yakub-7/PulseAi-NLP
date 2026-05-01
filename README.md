@@ -1,15 +1,28 @@
+## PulseAi - Customer Sentiment Tracker App 😊😐😔😡
+
 ![IntroPage](images/IntroPage.png)
 
 <br>
 
-# Sentiment Analysis App 😊😐😔😡
+# Developed by Uzma, Tanni, Abida, Olid
 
 <br>
 
-## About
-**A sentiment analysis application built using Streamlit( An open source framework to build web applications in python )**
+# 1. Project Overview
 
-Sentiment Analysis is one of the most famous applications of Natural Language Processing. Wherever data is present, we can apply it. It applies to all types of data, from text to audio to video to image. Data in any form can be processed to get sentiments out of it. The objective of the project is to create a web application which will harbor all sorts of applications in the field of sentiment analysis from applying it on text to analyzing images.
+## Introduction
+**A sentiment analysis application built using Streamlit**
+- Pulse AI is a web-based NLP (Natural Language Processing) application designed to help small and medium-sized businesses analyze customer feedback efficiently. Businesses receive customer reviews, comments, complaints, and ratings through platforms such as social media, delivery applications, websites, and messaging systems. Manually analyzing these reviews is time-consuming and inefficient.
+
+** This system automatically analyzes customer reviews and identifies: **
+- customer sentiment
+- repeated complaints
+- important keywords
+- customer satisfaction trends
+
+- The project applies NLP and machine learning techniques to transform customer feedback into useful business insights that support better decision-making.
+
+- The project structure and initial implementation are inspired by an existing Streamlit-based sentiment analysis application available on GitHub, which has been modified and customized to fit the business-focused objectives of this project.
 
 <br>
 
@@ -18,6 +31,30 @@ Sentiment Analysis is one of the most famous applications of Natural Language Pr
 
 ### 🔗 https://share.streamlit.io/gaganpreetkaurkalsi/sentimentanalysis-streamlit/main/app.py
 <br>
+
+## Problem Statement
+
+Many small businesses struggle to:
+
+* identify customer dissatisfaction quickly
+* understand repeated service complaints
+* analyze large amounts of customer feedback
+* improve services using customer insights
+
+Manual review analysis requires significant time and may lead to overlooked customer concerns.
+
+<br>
+
+## Proposed Solution
+
+BusinessPulse AI provides an intelligent customer feedback analysis platform where businesses can enter customer reviews and instantly receive:
+
+* sentiment classification
+* issue categorization
+* keyword extraction
+* business insight summaries
+
+The system helps businesses improve customer experience, service quality, and operational decisions using automated feedback analysis.
 
 ## Project Specifications
 
@@ -29,63 +66,208 @@ Sentiment Analysis is one of the most famous applications of Natural Language Pr
 
 <br>
 
-## Project Components
+# 2. Objectives
 
-**The project currently contains 3 applications :-**
-1. **Text** - Applying sentiment analysis on text given by the user.
-2. **IMDb movie reviews** - We get review data based on movie entered by user from the IMDb API and process the same to obtain emotions of people regarding the movie.
-3. **Image** - Here we analyze sentiments out of image uploaded by the user. We detect faces and then analyze sentiments for each.  We also calculate the sentiment of image as a whole.
+The objectives of this project are:
 
-<br>
-
-## Video Demonstration
-
-**Application 1 - User Input**          
-
-https://user-images.githubusercontent.com/54144759/173093720-5b753229-3ea8-428d-a4cb-1384c738382e.mp4
+* To automate customer review analysis
+* To help businesses identify customer satisfaction levels
+* To detect common customer complaints
+* To provide a user-friendly web interface
+* To demonstrate the practical use of NLP in solving business problems
+* To provide quick insights from customer feedback data
 
 <br>
 
-**Application 2 - IMDb reviews**   
+# 3. Technologies Used
 
-https://user-images.githubusercontent.com/54144759/173201517-909e9bc8-19cc-4667-8a8f-bd19fba75a0d.mp4
+- Programming Language:Python
+
+- Web Framework:Streamlit
+
+- NLP Libraries: NLTK, TextBlob, spaCy
+
+- Machine Learning:scikit-learn
+
+- Data Processing: Pandas
+
+- API Integration: Grok API (planned integration)
+
+- Visualization: Plotly
+
+- Model Storage: Pickle (.pkl)
+
+- Dataset Source:Kaggle Customer Review Dataset
+
+- Version Control: Git and GitHub
 
 <br>
 
-**Application 3 - Image analysis** 
+# 4. Functional Requirements
 
-https://user-images.githubusercontent.com/54144759/173202138-a7b0648a-ba13-471d-88d2-c91432958aab.mp4
+The system shall:
 
+1. Allow users to input customer reviews manually
+2. Analyze review sentiment automatically
+3. Display sentiment results as Positive, Negative, or Neutral
+4. Identify customer complaint categories
+5. Extract important keywords from reviews
+6. Display results in an interactive Streamlit interface
+7. Process multiple reviews sequentially
+8. Provide fast analysis responses
+9. Allow future integration of AI-based recommendations using Grok API
 
 <br>
+
+# 5. Non-Functional Requirements
+
+- Performance:The system should generate results within a few seconds.
+
+- Usability:The application interface should be simple and user-friendly.
+
+- Reliability:The application should provide consistent predictions.
+
+- Maintainability:The codebase should allow easy modification and future upgrades.
+
+- Scalability: Future support for dashboards and CSV uploads should be possible.
+
+- Accessibility: The system should run in modern web browsers.
+
+- Availability: The application can be deployed online using Streamlit Cloud.
+
+<br>
+
+# 6. System Features
+
+## 6.1 Sentiment Analysis
+
+The system determines customer sentiment as:
+
+* Positive
+* Negative
+* Neutral
+
+This helps businesses understand overall customer satisfaction levels.
+
+<br>
+
+## 6.2 Complaint Categorization
+
+The system identifies major business-related complaint categories such as:
+
+* Delivery Issues
+* Customer Service Issues
+* Product Quality Issues
+* Pricing Issues
+
+This helps businesses identify operational weaknesses.
+
+<br>
+
+## 6.3 Keyword Extraction
+
+Important keywords are extracted from customer reviews to highlight repeated concerns and praised features.
+
+Example:
+
+Input:
+
+> “The food quality was excellent but delivery was very slow.”
+
+Output Keywords:
+
+* food quality
+* delivery
+* slow
+
+<br>
+
+## 6.4 Interactive Streamlit Interface
+
+The application provides:
+
+* responsive UI
+* text input sections
+* prediction buttons
+* result displays
+* business-friendly interface
+
+<br>
+
+## 6.5 Future AI Recommendation Feature
+
+Using Grok API integration, future versions may provide:
+
+* automatic business improvement suggestions
+* AI-generated summaries
+* smart response recommendations
+
+<br>
+
+# 7. Workflow & Guide
+
+### Step 1: Launch the Application
+
+Run the Streamlit application using:
+
+streamlit run app.py
+
+![Homepage](images/Homepage.png)
+
+
+### Step 2: Open the Web Interface
+
+The application opens automatically in the browser window.
+
+
+### Step 3: Enter Customer Feedback
+
+Type or paste customer review text into the input field.
+
+Example:
+
+> “Delivery was delayed but the product quality was very good.”
+
+---
+
+### Step 4: Click “Analyze Review”
+
+Press the analysis button to process the review: 
+  - The system preprocesses the text.
+  - NLP models analyze the review.
+  - The system predicts sentiment and complaint category.
+  - Important keywords are extracted.
+
+---
+
+### Step 5: View Results
+
+
+- The system displays:
+
+* sentiment result
+* complaint category
+* extracted keywords
+
+- Example Output:
+
+* Sentiment: Neutral
+* Complaint Category: Delivery Issue
+* Keywords: delivery, delayed, quality
+
+<br> 
+
+# 8. Conclusion
+
+BusinessPulse AI demonstrates how Natural Language Processing can help solve real business problems through automated customer feedback analysis. The project helps businesses save time, identify service-related issues faster, and improve customer satisfaction using data-driven insights.
+
+The system combines machine learning, NLP, and Streamlit web technologies into a practical business-oriented application.
+
+
+# Reference: 
+- https://github.com/GaganpreetKaurKalsi/SentimentAnalysis-Streamlit
 
 # Important information
-
-## **IMDb API**
-
-API documentation link - https://imdb-api.com/api/#Reviews-header
-
-<br>
-
-To work with the API, you need to first **create an API key**.
-To create an API key, **register** on the site mentioned above and a unique key will be generated for you. We will use this key to make successful requests.
-
-
-***Note : API call limit per day is 100***
-
-<br>
-
-### **API specifications**
-To get reviews, we will need to make 2 API calls. 
-1. Get movies based on user input. Each movie received will have a unique id.
-2. Get reviews for a movie by passing the unique id associated with it received from the above API call.
-
-
-**Movie API** - https://imdb-api.com/en/API/SearchMovie/{apiKey}/{movieName}    
-    
-**Review API** - https://imdb-api.com/en/API/Reviews/{apiKey}/{id}
-
-<br>
 
 ## Models used
 There are multiple libraries available in python for sentiment analysis. Let's see them below 👇
