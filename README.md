@@ -29,7 +29,7 @@
 ## Live Link
 **Hosted on streamlit**
 
-### 🔗 https://share.streamlit.io/username/pulseai-nlp/main/app.py
+### 🔗 https://share.streamlit.io/your-username/pulseai-nlp/main/app.py
 <br>
 
 ## Problem Statement
