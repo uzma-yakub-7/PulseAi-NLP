@@ -20,9 +20,9 @@
 - important keywords
 - customer satisfaction trends
 
-- The project applies NLP and machine learning techniques to transform customer feedback into useful business insights that support better decision-making.
+** The project applies NLP and machine learning techniques to transform customer feedback into useful business insights that support better decision-making. **
 
-- The project structure and initial implementation are inspired by an existing Streamlit-based sentiment analysis application available on GitHub, which has been modified and customized to fit the business-focused objectives of this project.
+** The project structure and initial implementation are inspired by an existing Streamlit-based sentiment analysis application available on GitHub, which has been modified and customized to fit the business-focused objectives of this project. **
 
 <br>
 
@@ -47,7 +47,7 @@ Manual review analysis requires significant time and may lead to overlooked cust
 
 ## Proposed Solution
 
-BusinessPulse AI provides an intelligent customer feedback analysis platform where businesses can enter customer reviews and instantly receive:
+PulseAi provides an intelligent customer feedback analysis platform where businesses can enter customer reviews and instantly receive:
 
 * sentiment classification
 * issue categorization
