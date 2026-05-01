@@ -243,17 +243,15 @@ Press the analysis button to process the review:
 ### Step 5: View Results
 
 
-- The system displays:
+** The system displays: **
+- sentiment result
+- complaint category
+- extracted keywords
 
-* sentiment result
-* complaint category
-* extracted keywords
-
-- Example Output:
-
-* Sentiment: Neutral
-* Complaint Category: Delivery Issue
-* Keywords: delivery, delayed, quality
+** Example Output: **
+- Sentiment: Neutral
+- Complaint Category: Delivery Issue
+- Keywords: delivery, delayed, quality
 
 <br> 
 
