@@ -1,4 +1,4 @@
-![IntroPage](IntroPage.png)
+![IntroPage](images/IntroPage.png)
 
 <br>
 
