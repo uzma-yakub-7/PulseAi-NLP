@@ -29,7 +29,7 @@
 ## Live Link
 **Hosted on streamlit**
 
-### 🔗 https://share.streamlit.io/gaganpreetkaurkalsi/sentimentanalysis-streamlit/main/app.py
+### 🔗 https://share.streamlit.io/username/pulseai-nlp/main/app.py
 <br>
 
 ## Problem Statement
