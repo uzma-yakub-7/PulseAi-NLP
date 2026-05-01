@@ -1,24 +1,19 @@
+import nltk_setup
 import streamlit as st
 import sidebar
-import textPage
-# import audioPage
-import imdbReviewsPage
-import imagePage
-# import videoPage
-# import twitterAnalysisPage
+import home
+import feedback_page
 
-# st.title("Hello")
+st.set_page_config(
+    page_title="PulseAi - Customer Sentiment Tracker",
+    page_icon="🧠",
+    layout="wide"
+)
+
 page = sidebar.show()
 
-if page=="Text":
-    textPage.renderPage()
-# elif page=="Audio":
-#     audioPage.renderPage()
-elif page=="IMDb movie reviews":
-    imdbReviewsPage.renderPage()
-elif page=="Image":
-    imagePage.renderPage()
-# elif page=="Video":
-#     videoPage.main()
-# elif page=="Twitter Data":
-#     twitterAnalysisPage.renderPage()
+if page == "🏠 Home":
+    home.renderPage()
+
+elif page == "📝 Analyze Feedback":
+    feedback_page.renderPage()
