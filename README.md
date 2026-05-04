@@ -1,3 +1,5 @@
+- CUD means Created Updated Deleted File
+
 ## PulseAi - Customer Sentiment Tracker App 😊😐😔😡
 
 ![IntroPage](images/IntroPage.png)
