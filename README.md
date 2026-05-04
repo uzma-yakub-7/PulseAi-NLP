@@ -31,7 +31,7 @@
 
 ### 🔗 https://pulseainlp.streamlit.app/
 
-- Copy prompts from ![Feasibility Test.md](Feasibility Test.md)
+- Copy prompts from [Feasibility Test.md](Feasibility%20Test.md)
 - Paste to analyze feedbacks and test the app.
   
 <br>
