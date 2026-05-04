@@ -29,7 +29,11 @@
 ## Live Link
 **Hosted on streamlit**
 
-### 🔗 https://share.streamlit.io/your-username/pulseai-nlp/main/app.py
+### 🔗 https://pulseainlp.streamlit.app/
+
+- Copy prompts from [Feasibility Test.md](Feasibility Test.md)
+- Paste to analyze feedbacks and test the app.
+  
 <br>
 
 ## Problem Statement
